@@ -1,0 +1,92 @@
+header{
+  width: 100%;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-content: space-between;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+}
+
+header img{
+  flex: 0 0 70px;
+}
+
+header p {
+  flex: 4 0 200px;
+  padding: 0px 15px;
+}
+
+header ul {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  flex: 5 5 auto;
+
+}
+header ul li{
+  flex: 5 0 auto;
+  list-style: none;
+  color: inherit;
+}
+header ul li a{
+  flex: 5 0 auto;
+  color: black;
+}
+
+section {
+  border: 1px solid red;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+article{
+  border: 1px solid red;
+  font-family: Georgia;
+  font-size: 17px;
+  color: grey;
+}
+
+h2{
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.storytitle {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.storytitle.phish {
+  background-image: url("../images/img-story-main.png");
+    font-size: 40px;
+}
+
+.storytitle.earth {
+  background-image: url("../images/img-story-2.png");
+}
+.container{
+  border: 1px solid black;
+  display: inline-flex;
+}
+.column {
+  height: 100%;
+  border: 1px solid black;
+}
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
